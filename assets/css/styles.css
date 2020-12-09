@@ -271,7 +271,7 @@ header {
 	border: 2px #ACC4D6 solid;
 }
 
-#quals h3, #about h3 {
+#about h3 {
 	margin-top: 0;
 	padding-top: 0;
 	font-family: 'IBM Plex Sans', sans-serif;
@@ -280,30 +280,6 @@ header {
 	text-align: center;
 	text-transform: uppercase;
 	color: #ff1b66 ;
-}
-
-.quals {
-	display: grid;
-	grid-template-columns: 2.6em 1fr;
-	grid-gap: .5em;
-}
-
-.quals-yes {
-	padding: .5em .5em 1.5em .5em;
-	font-size: .55em;
-	line-height: 1em;
-	border-radius: 4px;
-	background-color: #065eed;
-	color: #9cbdf3;
-}
-
-.quals-no {
-	padding: .5em .5em 1.5em .5em;
-	font-size: .55em;
-	line-height: 1em;
-	border-radius: 4px;
-	background-color: #c9ced7;
-	color: white;
 }
 
 .cta {
